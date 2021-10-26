@@ -1,6 +1,6 @@
 import numpy as np
 import lecture3
-
+import lecture4
 
 if __name__ == '__main__':
     dir_path = r'C:/Users/Anwender/PycharmProjects/AppliedDataScienceWithPython/venv/lecture3resources'
@@ -28,4 +28,10 @@ if __name__ == '__main__':
     #lecture3.find_top_and_bottom_5(dir_path+"/titanic_data_sample.csv")
     #lecture3.find_age_and_fare(dir_path+"/titanic_data_sample.csv")
     #lecture3.find_survived_with_age(dir_path + "/titanic_data_sample.csv", 25)
-    lecture3.find_activity5_4(dir_path + "/titanic_data_sample.csv", 25)
+    #lecture3.find_activity5_4(dir_path + "/titanic_data_sample.csv", 25)
+
+    #------------Lecture 4----------------------------------------------------
+
+    dir_path = r'C:/Users/Anwender/PycharmProjects/AppliedDataScienceWithPython/venv/lecture4resources'
+    #lecture4.activity1(dir_path + "/test_assignment_data.csv")
+    lecture4.activity2(dir_path+"/forestfires.csv")
