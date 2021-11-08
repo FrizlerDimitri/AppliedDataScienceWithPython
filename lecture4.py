@@ -39,11 +39,6 @@ def activity1(source_path):
 #Find the month and day with the highest and lowest temperature.
 #Find the mean temperature at different unique locations (x,y).
 
-
-
-
-
-
 def activity2(source_path):
     df = pd.read_csv(source_path)
 

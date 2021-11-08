@@ -1,6 +1,7 @@
 import numpy as np
 import lecture3
 import lecture4
+import lecture5
 
 if __name__ == '__main__':
     dir_path = r'C:/Users/Anwender/PycharmProjects/AppliedDataScienceWithPython/venv/lecture3resources'
@@ -32,6 +33,24 @@ if __name__ == '__main__':
 
     #------------Lecture 4----------------------------------------------------
 
-    dir_path = r'C:/Users/Anwender/PycharmProjects/AppliedDataScienceWithPython/venv/lecture4resources'
+    #dir_path = r'C:/Users/Anwender/PycharmProjects/AppliedDataScienceWithPython/venv/lecture4resources'
     #lecture4.activity1(dir_path + "/test_assignment_data.csv")
-    lecture4.activity2(dir_path+"/forestfires.csv")
+    #lecture4.activity2(dir_path+"/forestfires.csv")
+
+
+    #------------Lecture 5----------------------------------------------------
+
+    dir_path = r'C:/Users/Anwender/PycharmProjects/AppliedDataScienceWithPython/venv/lecture5resources'
+    #lecture5.activity1(dir_path+'/data/company_sales_data.csv')
+    #lecture5.activity2(dir_path + '/data/company_sales_data.csv')
+    #lecture5.activity3(dir_path + '/data/company_sales_data.csv')
+    #lecture5.activity4(dir_path + '/data/company_sales_data.csv')
+    #lecture5.activity5(dir_path + '/data/company_sales_data.csv')
+
+    #lecture5.activity6(dir_path + '/data/company_sales_data.csv')
+
+    #lecture5.activity7(dir_path + '/data/company_sales_data.csv')
+    #lecture5.activity8(dir_path + '/data/company_sales_data.csv')
+    #lecture5.activity9(dir_path + '/data/company_sales_data.csv')
+
+    lecture5.activity10(dir_path + '/data/company_sales_data.csv')
